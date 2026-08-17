@@ -1,13 +1,13 @@
-module github.com/santhosh-tekuri/jsonschema/cmd/jv
+module github.com/steipete/jsonschema/cmd/jv
 
 go 1.21.1
 
 require (
-	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2
 	github.com/spf13/pflag v1.0.5
+	github.com/steipete/jsonschema/v6 v6.0.3-0.20260817142523-966654abed4a
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require golang.org/x/text v0.14.0 // indirect
 
-// replace github.com/santhosh-tekuri/jsonschema/v6 v6.0.2 => ../..
+// replace github.com/steipete/jsonschema/v6 v6.0.3-0.20260817142523-966654abed4a => ../..

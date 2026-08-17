@@ -9,8 +9,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/santhosh-tekuri/jsonschema/v6"
 	flag "github.com/spf13/pflag"
+	"github.com/steipete/jsonschema/v6"
 )
 
 func main() {
