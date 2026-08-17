@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/santhosh-tekuri/jsonschema/v6"
+	"github.com/steipete/jsonschema/v6"
 )
 
 type rejectingLoader struct{}

@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/santhosh-tekuri/jsonschema/v6"
+	"github.com/steipete/jsonschema/v6"
 )
 
 func Example_fromFiles() {
